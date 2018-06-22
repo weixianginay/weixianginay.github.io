@@ -1,0 +1,970 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content=",," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="裤衩小站" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon/demo.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="更新线2016-04-07 喜欢才是最根本的虽然是为了就业(即将毕业的大四狗)，才最终选择入这行，但还是很喜欢做个小功能实现后的满足感。目前中Javaweb入手学习。心态最重要初学时，姐夫（技术大牛）就告诉我，语言只是一种表达方式，多学几门语言后，多多体会其中的思想才是重要的，然后境界就不一样了，不再拘泥于一门语言，沾沾自喜。所以，虽然从Java后台入行学习，但也不拒绝学习前端，PHP其他语言。">
+<meta name="keywords" content="随笔">
+<meta property="og:type" content="website">
+<meta property="og:title" content="记录自己的代码历程">
+<meta property="og:url" content="https://weixianginay.github.io/about/index.html">
+<meta property="og:site_name" content="裤衩小站">
+<meta property="og:description" content="更新线2016-04-07 喜欢才是最根本的虽然是为了就业(即将毕业的大四狗)，才最终选择入这行，但还是很喜欢做个小功能实现后的满足感。目前中Javaweb入手学习。心态最重要初学时，姐夫（技术大牛）就告诉我，语言只是一种表达方式，多学几门语言后，多多体会其中的思想才是重要的，然后境界就不一样了，不再拘泥于一门语言，沾沾自喜。所以，虽然从Java后台入行学习，但也不拒绝学习前端，PHP其他语言。">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://weixianginay.github.io/images/about.jpg">
+<meta property="og:updated_time" content="2018-01-31T05:53:20.087Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="记录自己的代码历程">
+<meta name="twitter:description" content="更新线2016-04-07 喜欢才是最根本的虽然是为了就业(即将毕业的大四狗)，才最终选择入这行，但还是很喜欢做个小功能实现后的满足感。目前中Javaweb入手学习。心态最重要初学时，姐夫（技术大牛）就告诉我，语言只是一种表达方式，多学几门语言后，多多体会其中的思想才是重要的，然后境界就不一样了，不再拘泥于一门语言，沾沾自喜。所以，虽然从Java后台入行学习，但也不拒绝学习前端，PHP其他语言。">
+<meta name="twitter:image" content="https://weixianginay.github.io/images/about.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '6360854721841874000',
+      author: '花裤衩'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://weixianginay.github.io/about/"/>
+
+
+
+
+
+  <title>
+  
+
+  
+    记录自己的代码历程 | 裤衩小站
+  
+</title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left  ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">裤衩小站</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">学会整理自己的经验是大牛的第一步</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archivess" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+
+ <!-- 自定义High一下的功能 -->
+      <li class="menu-item"> <a title="把这个链接拖到你的工具栏中,任何网页都可以High" href='javascript:(
+    /*
+     * Copyright (C) 2016 Never_yu (Neveryu.github.io) <React.dong.yu@gmail.com>
+     * Sina Weibo (http://weibo.com/Neveryu)
+     *
+     * Licensed under the Apache License, Version 2.0 (the "License");
+     * you may not use this file except in compliance with the License.
+     * You may obtain a copy of the License at
+     *
+     *      http://www.apache.org/licenses/LICENSE-2.0
+     *
+     * Unless required by applicable law or agreed to in writing, software
+     * distributed under the License is distributed on an "AS IS" BASIS,
+     * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     * See the License for the specific language governing permissions and
+     * limitations under the License.
+     */
+    function go() {
+
+
+    var songss = [
+                "http://111.206.239.13/m10.music.126.net/20161205184845/44eb1f04189fbf49060ca07ad1d66b1c/ymusic/08fe/2d91/5166/d006ec4d6534bd6603f4038c1ff69077.mp3",
+                "http://211.94.114.56/m10.music.126.net/20161205185124/cae4a31697b7a3577a2043e9e6cb4800/ymusic/4ca1/7552/93ff/e2d3659ed56813a58fe0257def055b2c.mp3",
+		"http://211.94.114.55/m10.music.126.net/20161205185254/dd0e98534474bd21ca850f9ceebb0719/ymusic/6bc6/15b7/4aa7/6bbbc10399a399472c53bcadfb48f422.mp3"
+	
+    ];
+     var songs = [
+                "http://v.65dj.com/wailian/84791c997d8c55023dad0d5690e48c28.mp3",
+    "http://7xoiki.com1.z0.glb.clouddn.com/Music-sunburst.mp3"
+	
+    ];
+
+    
+    function c() {
+        var e = document.createElement("link");
+        e.setAttribute("type", "text/css");
+        e.setAttribute("rel", "stylesheet");
+        e.setAttribute("href", f);
+        e.setAttribute("class", l);
+        document.body.appendChild(e)
+    }
+ 
+    function h() {
+        var e = document.getElementsByClassName(l);
+        for (var t = 0; t < e.length; t++) {
+            document.body.removeChild(e[t])
+        }
+    }
+ 
+    function p() {
+        var e = document.createElement("div");
+        e.setAttribute("class", a);
+        document.body.appendChild(e);
+        setTimeout(function() {
+            document.body.removeChild(e)
+        }, 100)
+    }
+ 
+    function d(e) {
+        return {
+            height : e.offsetHeight,
+            width : e.offsetWidth
+        }
+    }
+ 
+    function v(i) {
+        var s = d(i);
+        return s.height > e && s.height < n && s.width > t && s.width < r
+    }
+ 
+    function m(e) {
+        var t = e;
+        var n = 0;
+        while (!!t) {
+            n += t.offsetTop;
+            t = t.offsetParent
+        }
+        return n
+    }
+ 
+    function g() {
+        var e = document.documentElement;
+        if (!!window.innerWidth) {
+            return window.innerHeight
+        } else if (e && !isNaN(e.clientHeight)) {
+            return e.clientHeight
+        }
+        return 0
+    }
+ 
+    function y() {
+        if (window.pageYOffset) {
+            return window.pageYOffset
+        }
+        return Math.max(document.documentElement.scrollTop, document.body.scrollTop)
+    }
+ 
+    function E(e) {
+        var t = m(e);
+        return t >= w && t <= b + w
+    }
+
+    function S() {
+        var e = document.getElementById("audio_element_id");
+        if(e != null){
+            var index = parseInt(e.getAttribute("curSongIndex"));
+            if(index > songs.length - 2) {
+                index = 0;
+            } else {
+                index++;
+            }
+            e.setAttribute("curSongIndex", index);
+            N();
+        }
+
+        e.src = i;
+        e.play()
+    }
+ 
+    function x(e) {
+        e.className += " " + s + " " + o
+    }
+ 
+    function T(e) {
+        e.className += " " + s + " " + u[Math.floor(Math.random() * u.length)]
+    }
+ 
+    function N() {
+        var e = document.getElementsByClassName(s);
+        var t = new RegExp("\\b" + s + "\\b");
+        for (var n = 0; n < e.length; ) {
+            e[n].className = e[n].className.replace(t, "")
+        }
+    }
+
+    function initAudioEle() {
+        var e = document.getElementById("audio_element_id");
+        if(e === null){
+            e = document.createElement("audio");
+            e.setAttribute("class", l);
+            e.setAttribute("curSongIndex", 0);
+            e.id = "audio_element_id";
+            e.loop = false;
+            e.bgcolor = 0;
+            e.addEventListener("canplay", function() {
+            setTimeout(function() {
+                x(k)
+            }, 500);
+            setTimeout(function() {
+                N();
+                p();
+                for (var e = 0; e < O.length; e++) {
+                    T(O[e])
+                }
+            }, 15500)
+        }, true);
+        e.addEventListener("ended", function() {
+            N();
+            h();
+            go();
+        }, true);
+        e.innerHTML = " <p>If you are reading this, it is because your browser does not support the audio element. We recommend that you get a new browser.</p> <p>";
+        document.body.appendChild(e);
+        }
+    }
+    
+    initAudioEle();
+    var e = 30;
+    var t = 30;
+    var n = 350;
+    var r = 350;
+
+    var curSongIndex = parseInt(document.getElementById("audio_element_id").getAttribute("curSongIndex"));
+    var i = songs[curSongIndex];
+    
+    var s = "mw-harlem_shake_me";
+    var o = "im_first";
+    var u = ["im_drunk", "im_baked", "im_trippin", "im_blown"];
+    var a = "mw-strobe_light";
+
+    /* harlem-shake-style.css，替换成你的位置，也可以直接使用：//s3.amazonaws.com/moovweb-marketing/playground/harlem-shake-style.css */
+    var f = "//s3.amazonaws.com/moovweb-marketing/playground/harlem-shake-style.css";
+    
+    var l = "mw_added_css";
+    var b = g();
+    var w = y();
+    var C = document.getElementsByTagName("*");
+    var k = null;
+    for (var L = 0; L < C.length; L++) {
+        var A = C[L];
+        if (v(A)) {
+            if (E(A)) {
+                k = A;
+                break
+            }
+        }
+    }
+    if (A === null) {
+        console.warn("Could not find a node of the right size. Please try a different page.");
+        return
+    }
+    c();
+    S();
+    var O = [];
+    for (var L = 0; L < C.length; L++) {
+        var A = C[L];
+        if (v(A)) {
+            O.push(A)
+        }
+    }
+    })()'><i class="menu-item-icon fa fa-music fa-fw"></i>Click</a> </li>
+          <!-- end High一下 -->
+
+
+
+
+
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup">
+ <span class="search-icon fa fa-search"></span>
+ <input type="text" placeholder="输入关键词，快速检索裤衩小站" id="local-search-input">
+ <div id="local-search-result"></div>
+ <span class="popup-btn-close">close</span>
+</div>
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+  <header class="post-header">
+
+	<h2 class="post-title" itemprop="name headline">记录自己的代码历程</h2>
+
+
+
+</header>
+
+    
+    
+      <p><img src="/images/about.jpg" alt="img"></p>
+<h2 id="更新线2016-04-07"><a href="#更新线2016-04-07" class="headerlink" title="更新线2016-04-07"></a>更新线2016-04-07</h2><ul>
+<li><h3 id="喜欢才是最根本的"><a href="#喜欢才是最根本的" class="headerlink" title="喜欢才是最根本的"></a>喜欢才是最根本的</h3>虽然是为了就业(即将毕业的大四狗)，才最终选择入这行，但还是很喜欢做个小功能实现后的满足感。目前中Javaweb入手学习。<h3 id="心态最重要"><a href="#心态最重要" class="headerlink" title="心态最重要"></a>心态最重要</h3>初学时，姐夫（技术大牛）就告诉我，语言只是一种表达方式，多学几门语言后，多多体会其中的思想才是重要的，然后境界就不一样了，不再拘泥于一门语言，沾沾自喜。<br>所以，虽然从Java后台入行学习，但也不拒绝学习前端，PHP其他语言。我认识这种认知是非常有必要的，身边的好多位同学都是很拒绝学习其他领域的语言，尤其有一位经常拿“PHP是世界上最好的语言”来拒绝其他语言。其实这句只是个梗而已，不知蒙骗多少少男少女（我也曾被蒙骗过）<h3 id="坐得住是根基"><a href="#坐得住是根基" class="headerlink" title="坐得住是根基"></a>坐得住是根基</h3>敲代码，专注下来，一下就是一天，晚上都坐得屁股疼，毕竟基础差，时间紧，要多努力学习。所以想想有些公司让程序员西装上班，各种要求，简直就是傻*。</li>
+</ul>
+<h2 id="更新线2016-11-22"><a href="#更新线2016-11-22" class="headerlink" title="更新线2016-11-22"></a>更新线2016-11-22</h2><ul>
+<li>工作快半年了，一直没有更新这个日记。今天有空，坐下里闲写一些东西。<br>这半年，感觉自己在代码方面进步还是很厉害的。由之前只看书，没怎么写过项目，对问题一知半解的。经过这半年，项目的锻炼，对java还是有了很深刻的了解。尤其是spring框架的使用，SpringMVC确实挺好用！着迷于@ 注解，的使用，第一次尝试了AOP，记录各个模块的方法调用日志，后台整模块的异常捕获，避免前台直接404,500的报错。各个模块中对数据库操作加入注解事务。对工具类的理解，对开发工具IDEA的使用，对WEB_INF 下的各个包，页面分配。经过“临时物流”模块的前台锻炼，JS的能力大大提升。一些简单的JS，逻辑处理，还是能拿下的。<br>很幸运的能够加入这家公司，刚入职时，一切都是刚起步，所以我有个很好的适应期，经过这半年，项目变的庞大而复杂，我也从小白转身成为较合格的程序猿。继续前行，加油！</li>
+</ul>
+<h2 id="更新线2016-12-6"><a href="#更新线2016-12-6" class="headerlink" title="更新线2016-12-6"></a>更新线2016-12-6</h2><ul>
+<li>最近一星期在业余时间，研究github玩，捣鼓git，搭建个人博客。收获颇多。<br>再一次感觉到之前学的知识点，偶然间会穿成一条线。<br>在搭建博客时，注册github，简单的写了一个页面。后来发现有很多优秀的模板，本站就是用的hexo的NexT主题。经过二次开发，界面稍有改动。<br>非常享受这种过程，对于新领域的好奇心，促使我绞尽脑汁的研究问题。<br>尤其是本站PC端，改变为80%的屏占比，导致移动端模板界面混乱这个问题。灵光一现的找到了解决办法：利用css中@media判断屏幕宽度，再额外增加样式代码。解决办法很简单，一点就破。但想法很重要。有空我会整理一篇关于搭建博客的文章，总结一下自己的经验。</li>
+</ul>
+<h2 id="更新线2017-03-17"><a href="#更新线2017-03-17" class="headerlink" title="更新线2017-03-17"></a>更新线2017-03-17</h2><ul>
+<li><h3 id="合同物流-的加入"><a href="#合同物流-的加入" class="headerlink" title="[合同物流]的加入"></a>[合同物流]的加入</h3>我们做的项目，业务上进行了一次扩展，原本的两种业务模式[标准物流][临时物流]，整合出一个新的业务模式[合同物流]。<br>简单地说就是在前两种业务基础上，增加合同的限制。由于参与过标准，临时两个模块的核心环节开发，对新的业务场景，理解起来比较容易。<br>最使我头大的是，新的业务[合同物流]，需要加入中间方，就是中介的角色。在走完一单时，需要两头收取中介费。这个过程需要自动化完成。我的理解是，采用Spring的AOP，切面来实现这个场景，既能保证取得的源数据准确，又能保证是在源数据上操作。<br>但我的两个技术头儿，不打算采用这种方式。而是打算采用事件处理机制来解决，简单的说，在用户创建一单时，发布一个事件，订阅事件会被触发，触发代码中，先从数据库取出这条数据，再查询到该[合同]，把用户更换为中间方，再调用原本的创建方法。<br>这种方式的合理性我保留异议。不过这种方式，确实在代码的逻辑上给我们带来了麻烦，开发阶段，经常无法产生两个单子，bug大量的存在。[调度器]的不稳定，不仅是开发人员对业务理解度不够，还有设计上的实现难度，需要同时保证[创建单子-发布事件]–[订阅事件–查询该单子]–[查询合同–修改单子]–[再创建单子]<h3 id="私有云-的加入"><a href="#私有云-的加入" class="headerlink" title="[私有云]的加入"></a>[私有云]的加入</h3>需求总是变化的，客户已经不满足于[合同物流]，他们想要属于自己的整个网站。于是[私有云]诞生了。<br>经过讨论，技术头决定采用总体上，在各表加字段，来区分公有云和私有云s的数据，年后的头一两周，我们完成了后台接口的改造，接下来的一段时间，在研究前台框架展示的区分。<br>我们打算采用各个云，同时调用同一个Controller，跳转到各个view的方式。这部分框架上的整合，大部分都是技术头完成的，这部分自己的参与度小，只是做了一部分实现。不过原理上，并不难理解，就是通过拦截器和过滤器，处理请求，然后在Controller中，直接取数据，就能辨别来源和view的确定。<h3 id="钱包-的加入"><a href="#钱包-的加入" class="headerlink" title="[钱包]的加入"></a>[钱包]的加入</h3>需求又增加了，需要加入用户钱包的功能，之前的结算方式，只能线下结算。我们的网站只是做了一个数据处理，展示的功能。<br>我接手这个模块时，头已经把支付宝充值过程架子搭好，安排我来完成接下来对接我们产品的场景。还是庆幸自己参与的模块比较多，对[标准][临时][合同]到[订单]，四个大模块的理解程度比较深。在设计钱包模块时，还是比较容易上手的。<br>总体下来，两周的时间，完成了数据库设计，和功能实现。这个过程前期还是比较痛苦的，由于是接口的定义，和数据库的设计。之前的开发，大致都是实现类，和前台逻辑。这次更深一步，能力提升还是不少的。<h3 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h3>框架优化，确实能更好的提升能力。这个过程，是对现有业务和产品设计关系的更深层次理解。<br>当初整个项目刚启动时，只开发[标准]，完成时，觉得已经很了不起了。之后又加入了[临时],[合同],又进一步上升到[公私有云]的概念。回头来看，最初的开发难度并不大。能力提高，视野也就更远了。这段时间，已经能够感觉到，自己代码的变化，之前只是完成实现，而现实开发时，我考虑的更多都是怎么提炼，复用。</li>
+</ul>
+<h2 id="更新线2017-08-01"><a href="#更新线2017-08-01" class="headerlink" title="更新线2017-08-01"></a>更新线2017-08-01</h2><ul>
+<li><h3 id="运单模块-的加入"><a href="#运单模块-的加入" class="headerlink" title="[运单模块]的加入"></a>[运单模块]的加入</h3>目前网站加入了新模块，[运单模块]。运单模块最初的设想是，加入新的角色’司机’。把原本在订单模块，承运方反馈司机(手动填写一些信息)，升级成为反馈司机角色。运单模块只有两个角色使用，承运方和司机。<br>我主要负责的是司机创建，和之前的短信模块升级。由于司机的注册过程中，需要调用另一家公司接口，授权定位，以及后续司机认证。最初拿到接口时就安排我们开发，对注册和认证过程不熟悉，导致前期进度缓慢，经常推翻之前的代码和流程，耽误了大量的时间。不过在这个过程中对’接口’更加理解，尤其是对接其他公司时，接口的加密解密极其重要。我们之前都是调用自己的接口，在加密解密上没有做很强的验证，存在一些漏洞。<br>还有一点要说的是，本次开发要求SQL都要手写，不能完全使用原来mybatis自动生成SQL的example类，自己的SQL，主要是如何写mapper文件SQL得到了锻炼，司机一共有三张表(司机+车辆+承运方司机关系表)。<h3 id="短信，钱包-的再升级"><a href="#短信，钱包-的再升级" class="headerlink" title="[短信，钱包]的再升级"></a>[短信，钱包]的再升级</h3>根据业务的变化，钱包需要增加承运方，未来还需要加入司机，这些角色。对此需求改动简单，更加了更多的流水类型，满足具体需求。但我们遇到了一个小问题，就是公有云，私有云这块，调用的provider都是一个，其中一些方法，接口都是走的其他公司API，而这些API都是单次收费的，现有系统没办法区分各个云的使用情况以及收费。而这个需求是在做[运单]项目过程中产生的，自然需要在这个项目期限中解决该问题。<br>我的做法也很简单，首先为每个云创建一个[云钱包]，在具体某个用户调用某些API方法，创建流水时，方法内部会先尝试调用该[云钱包]相关费用。不足则提示费用不足，拒绝用户调用后续方法。总体的设计我自认为还是很巧妙的，从最初的想法，到最终实现，不到一周搞定。后续再此基础上，扩充了短信包的概念，对用户，云使用短信增加了限制。<h3 id="心得-1"><a href="#心得-1" class="headerlink" title="心得"></a>心得</h3>目前项目还在最后完善中，对于本次项目，遇到的某些问题，都是业务bug，在开始项目之处，产品没有考虑完善的地方，不过目前来看，自己还是顺利的解决。感觉自己离产品经理的职位不远了~（逃</li>
+</ul>
+<h2 id="更新线2017-08-29"><a href="#更新线2017-08-29" class="headerlink" title="更新线2017-08-29"></a>更新线2017-08-29</h2><ul>
+<li><h3 id="接手运单项目"><a href="#接手运单项目" class="headerlink" title="接手运单项目"></a>接手运单项目</h3>我们开发运单项目的一名同事，合同到期突然离职了…走的时候留下一些BUG和他负责的PC端完全没开发…双重打击。于是，我就顺利的承担了这个收尾工作。接近两周的开发，痛苦并成长着。总体来说，这两周还是相对来说，顺利的，旧业务的搬迁至PC端，只是页面细节比较多，改的恶心。<h3 id="微信支付"><a href="#微信支付" class="headerlink" title="[微信支付]"></a>[微信支付]</h3>这才是本次的重点，因为是微信公众号开发，限制不能支付宝充值，所以微信支付提上日程，之前一直没时间做，搁置着。上次支付宝的接口，接的半成品，并没有独自完成。这次微信是真没人带啊。苦逼的去看微信官方文档。<br>吐槽一下微信支付的官方文档，是真的菜。本以为腾讯这么大的公司，微信这么王牌的产品，接口开发应该简单，结果文档各种垃圾，表述不清，各种接口限制。尤其是两种支付方式（二维码和公众号触发支付）。几乎每个步骤都需要注意，对比支付宝，完全不一个概念。<br>最终也还是两周的开发（独自开发哦），完成了整个微信支付。对自己还是很有自信的~ 下一阶段，又要做平安银行的钱包对接。感觉又是一个更坑的项目。</li>
+</ul>
+<h2 id="更新线2017-12-08"><a href="#更新线2017-12-08" class="headerlink" title="更新线2017-12-08"></a>更新线2017-12-08</h2><ul>
+<li><h3 id="新的公司-新的项目"><a href="#新的公司-新的项目" class="headerlink" title="新的公司 新的项目"></a>新的公司 新的项目</h3>由于各种原因，我的第一家公司要搬去武汉发展了，我选择了留在北京，继续北漂。（其实当时也确实想换个环境去历练一下自己。）于是机缘巧合的到了目前这家公司。目前在这家公司两个月了，今天有空把博客更新一下。</li>
+<li><h3 id="远古代码"><a href="#远古代码" class="headerlink" title="远古代码"></a>远古代码</h3>因为这一年多一直用的是SSM+Dubbo+Maven，习惯了整个项目编码风格和规范。对struts和hibernate框架非常陌生，完全没有接触过。而新公司的两个核心项目就是用的这框架，更加难受的还是（struts1+hibernate1）+（struts2+ibatis）所以刚开始的时候技术压力非常大。习惯了IDEA开发，本想着尝试用IDEA跑项目，结果死活也跑不起来，我简直成了没有开发能力的小白。<br>只好按部就班的安装了eclipse，配置了各种东西。花了大半天终于能本地运行代码了。经过一周的时间，熟悉了这两个远古项目（估计开发有十年了），大量的低质量代码，随意的数据库查询，接口实现类新增公有方法调用，Oracle数据库11g,12c 各种魔幻的事情，都摆在面前。我总算是领悟到“到哪都一样的”的无奈了。好在打不死的小强精神，我坚持下来了，也顺利的把项目在IDEA上运行。感觉这个过程虽然很痛苦，但是非常有意义。以后我可以自信满满的说，自己熟悉SSH，SSM框架了。</li>
+<li><h3 id="36项目大BUG"><a href="#36项目大BUG" class="headerlink" title="36项目大BUG"></a>36项目大BUG</h3>刚熟悉完项目，就要解决一个大BUG，历史原因一个叫账户类型的 accountType的表中，有两个很容易误解的字段，id和typeid。导致这个36核心项目中有很多地方存在问题。而在36项目上扩展的其他项目，也存在错用的问题。bug很紧急，需要及时解决。我就接了该36项目的任务。<br>我的思路是从结果看影响，就是新创建数据，菜单页一个一个过，确定哪些页面有问题。硬是啃了3天时间，把36项目，我能看到的都改了，感觉成就感还是满足的~不过目前还在维护这个bug,等待测试。</li>
+</ul>
+<h2 id="更新线2018-01-31"><a href="#更新线2018-01-31" class="headerlink" title="更新线2018-01-31"></a>更新线2018-01-31</h2><ul>
+<li><h3 id="部门调换"><a href="#部门调换" class="headerlink" title="部门调换"></a>部门调换</h3><p>调换部门有一段时间了，从原来的开发组调换到架构组，虽然目前架构组除了技术领导只有我一个人，但我觉得还是蛮不错的。架构师同时也是我的直属领导，希望我调整一下以前的开发思维，不要只满足实现功能的写代码，要更多的去思考设计是否合理，拓展思维。<br>他说的一句话，我还是挺认同的，“咱们架构要做技术部的技术。”这段时间做的也比较杂，除了少数业务开发，接触了很多额外的东西。</p>
+</li>
+<li><h3 id="为API项目加入接口安全"><a href="#为API项目加入接口安全" class="headerlink" title="为API项目加入接口安全"></a>为API项目加入接口安全</h3><p>各个项目比较分散，前一段时间梳理了现有平台各个项目调用情况，打算以后把功能搬迁到API项目之中，统一管理，增加代码复用性。API项目目前是部署在内网，所以安全性这块比较欠缺，基本上是暴露的，不安全的。所以希望在API上加一层接口安全。我的设计思路是，这个API项目框架用的springBoot，参考上一家公司的开发经历，打算用注解+拦截器的方式去实现。加密方式参考微信支付的方式：appID+key 获取sign，拦截器根据appID，通过配置文件获取key,推算出sign，比较两个sign是否相同。<br>设计方式比较简单，然后比对sign不同时，返回值覆盖。这是接口安全的第一版本。在后续的应用中，发现有的html页面会直接调用ajax访问API，如果还是采用appId的方式，显然是把钥匙暴露了，又在此基础上做了“临时私钥”的版本，就是API项目会先生成一个key我们称呼tkp.生成是会在tkp中的map放入要比对的数据和值。这样，tkp可以给任何人使用，但使用时传值必须为tkp对应的map值。并且存放tkp是放入在redis之中，可以设置有效期。更加增强了灵活性。<br>在实际的使用过程中，效果显著。只要在controller上加入注解，并设置模式和参数，就可以使用。</p>
+</li>
+<li><h3 id="使用CMPP协议发送短信"><a href="#使用CMPP协议发送短信" class="headerlink" title="使用CMPP协议发送短信"></a>使用CMPP协议发送短信</h3><p>对接了一家新的短信服务商，这家提供CMPP方式发送短信。安排我先做一下技术对接，看看方案可行性。到手的只有一份文档，网上百度都能下得到，demo找了半天，一直没有合适的。没有自己写demo,是因为不会…协议看的一脸懵逼，还是采用socket方式，很是迷茫。之后对方技术客服给了我一个个人写的demo，调试半天终于跑通了。<br>可我不能仅停留在会用demo啊，又自己看了看，发现他是采用开始两个线程，一个监听，一个发送，然后监听线程，不断的回复服务端，保持长连接的状态。当要发送短信时，开启一个发送任务，监听端去做响应服务器。设计还是很巧妙的，加上CMPP协议严格要求字段长度和格式，整体看demo还是有点难度的。<br>回头再看看CMPP协议文档，有点明白的意思。其实文档写的很清晰明了，主要还是第一次接触，还是采用我陌生的socket方式，开始不适应。弄明白后，顺带测试了一下高并发下发送短信（50个同事手机号+每人10条不同的内容=500条，1秒执行完程序，均能收到正确短信）还是很高效的，如果要用单一http的方式，肯定是要建立500次短链接，效率肯定低。</p>
+</li>
+</ul>
+
+    
+  </div>
+
+
+          </div>
+          
+
+
+          <!-- 
+  <div class="comments" id="comments">
+    
+  </div>
+
+ -->
+
+
+
+<section id="comment">  
+<!-- ��˵���ۿ� start -->
+ <div class="ds-thread" data-thread-key="<%= page.path %>" data-title="<%= page.title %>" data-url="https://weixianginay.github.io/<%= page.permalink %>"></div>
+<!-- ��˵���ۿ� end -->
+<!-- ��˵����JS���� start (һ����ҳֻ�����һ��) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"weixianginay"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- ��˵����JS���� end -->
+</section>  
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.jpg"
+               alt="weixiang" />
+          <p class="site-author-name" itemprop="name">weixiang</p>
+          <p class="site-description motion-element" itemprop="description">Talk is cheap, show me the code</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archivess">
+              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/weixianginay/weixianginay.github.io" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/u/2764249293" target="_blank" title="微博">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  微博
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.zhihu.com/people/wei-xiang-50-93/activities" target="_blank" title="知乎">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  知乎
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2016 - 
+  <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">weixiang</span>
+</div>
+
+
+
+
+
+
+        
+
+<div class="copyright">
+
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">访客数<span class="busuanzi-value" id="busuanzi_value_site_uv"></span>人次</span>
+  
+
+  
+    <span class="site-pv">总访问量<span class="busuanzi-value" id="busuanzi_value_site_pv"></span>次</span>
+  
+  
+</div>
+
+
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.0"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+	
+
+
+
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+      search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var matchcounts = 0;
+            var str='<ul class=\"search-result-list\">';
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            $resultContent.innerHTML = "";
+            if (this.value.trim().length > 1) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var content_index = [];
+                var data_title = data.title.trim().toLowerCase();
+                var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                var data_url = decodeURIComponent(data.url);
+                var index_title = -1;
+                var index_content = -1;
+                var first_occur = -1;
+                // only match artiles with not empty titles and contents
+                if(data_title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    index_title = data_title.indexOf(keyword);
+                    index_content = data_content.indexOf(keyword);
+                    if( index_title >= 0 || index_content >= 0 ){
+                      isMatch = true;
+                      if (i == 0) {
+                        first_occur = index_content;
+                      }
+                    }
+
+                  });
+                }
+                // show search results
+                if (isMatch) {
+                  matchcounts += 1;
+                  str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                  var content = data.content.trim().replace(/<[^>]+>/g,"");
+                  if (first_occur >= 0) {
+                    // cut out 100 characters
+                    var start = first_occur - 20;
+                    var end = first_occur + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if(start == 0){
+                      end = 50;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    var match_content = content.substring(start, end);
+                    // highlight all keywords
+                    keywords.forEach(function(keyword){
+                      var regS = new RegExp(keyword, "gi");
+                      match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                    });
+
+                    str += "<p class=\"search-result\">" + match_content +"...</p>"
+                  }
+                  str += "</li>";
+                }
+              })};
+            str += "</ul>";
+            if (matchcounts == 0) { str = '<div id="no-result"><span>靠,&nbsp;&nbsp;木有</span><br/><i class="fa fa-frown-o fa-5x" /></div>' }
+            if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+            $resultContent.innerHTML = str;
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".popoverlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+<!-- �������� -->
+<script type="text/javascript" src="/js/src/particle.js"></script>
+
+</body>
+</html>
